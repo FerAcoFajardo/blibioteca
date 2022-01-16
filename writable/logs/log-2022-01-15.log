@@ -1,0 +1,24 @@
+CRITICAL - 2022-01-15 19:35:53 --> The framework needs the following extension(s) installed and loaded: curl, intl, xml.
+#0 /opt/lampp/htdocs/biblioteca/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/biblioteca/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/biblioteca/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/biblioteca/spark(45): require('/opt/lampp/htdo...')
+#4 {main}
+CRITICAL - 2022-01-15 19:39:27 --> The framework needs the following extension(s) installed and loaded: curl, intl, xml.
+#0 /opt/lampp/htdocs/biblioteca/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/biblioteca/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/biblioteca/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/biblioteca/spark(45): require('/opt/lampp/htdo...')
+#4 {main}
+CRITICAL - 2022-01-15 19:39:55 --> The framework needs the following extension(s) installed and loaded: curl, intl, xml.
+#0 /opt/lampp/htdocs/biblioteca/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/biblioteca/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/biblioteca/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/biblioteca/spark(45): require('/opt/lampp/htdo...')
+#4 {main}
+CRITICAL - 2022-01-15 19:40:10 --> The framework needs the following extension(s) installed and loaded: curl, intl, xml.
+#0 /opt/lampp/htdocs/biblioteca/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/biblioteca/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/biblioteca/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/biblioteca/spark(45): require('/opt/lampp/htdo...')
+#4 {main}
