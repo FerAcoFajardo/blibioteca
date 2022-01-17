@@ -2,6 +2,9 @@
 
     Formulario de creación de libros
 
+
+    
+
     <div class="card">
         <div class="card-body">
             <h5 class="card-title">Ingresar datos del libro</h5>
@@ -10,7 +13,7 @@
                 <form action="<?=base_url('/guardar')?>" method="post" enctype="multipart/form-data">
                     <div class="mb-3">
                         <label for="nombre">Nombre:</label>
-                        <input type="text" name="nombre" id="nombre" class="form-control" required>
+                        <input type="text" value="<?=old('nombre')?>" name="nombre" id="nombre" class="form-control" required>
                     </div>
 
                     <div class="mb-3">
