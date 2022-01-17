@@ -41,11 +41,16 @@ class Libros extends Controller{
             $datos=[
                 'nombre' => $nombre,
             ];
-            echo "No se subió ninguna imagen
-            <br>";
         }
         $libro->insert($datos);
-        echo "Ingresado a la BD";
+        return redirect()->to(base_url('listar'));
+    }
+
+    // Función para borrar
+    public function borrar($id=null){
+        $libro = new Libro();
+        $libro->where('id', $id)->delete();
+        return redirect()->to(base_url('listar'));
     }
 
 }

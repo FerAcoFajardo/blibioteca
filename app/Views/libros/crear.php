@@ -10,12 +10,12 @@
                 <form action="<?=base_url('/guardar')?>" method="post" enctype="multipart/form-data">
                     <div class="mb-3">
                         <label for="nombre">Nombre:</label>
-                        <input type="text" name="nombre" id="nombre" class="form-control">
+                        <input type="text" name="nombre" id="nombre" class="form-control" required>
                     </div>
 
                     <div class="mb-3">
                         <label for="imagen">Imagen:</label>
-                        <input type="file" class="form-control" id="imagen" name="imagen">
+                        <input type="file" class="form-control" id="imagen" name="imagen" required>
                     </div>
 
 

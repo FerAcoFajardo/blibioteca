@@ -18,7 +18,8 @@
                     <td><img src="<?=$libro['imagen'];?>" width="100" height="100"></td>
                     <td><?=$libro['nombre'];?></td>
                     <td>
-                        Editar/Eliminar
+                        Editar/
+                        <a href="<?=base_url('borrar/'.$libro['id']);?>" class="btn btn-danger">Eliminar</a>
                     </td>
                 </tr>
 
