@@ -49,3 +49,7 @@ $routes->get('/', 'Home::index');
 if (file_exists(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
     require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }
+// Rutas de los libros
+$routes->get('listar', 'Libros::index');
+$routes->get('crear', 'Libros::crear');
+$routes->post('guardar', 'Libros::guardar');
