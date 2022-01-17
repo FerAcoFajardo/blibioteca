@@ -27,8 +27,9 @@
 
 
                     <div class="mb-3">
-                        <button type="submit" class="btn btn-success">Guardar</button>
+                        <button type="submit" class="btn btn-success">Actualizar</button>
                         <input type="reset" class="btn btn-secondary" value="Limpiar">
+                        <a href="<?=base_url('listar');?>" class="btn btn-info">Volver</a>
                     </div>
 
                 </form>
